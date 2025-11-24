@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>574</width>
-    <height>651</height>
+    <height>631</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -116,7 +116,7 @@
        <property name="geometry">
         <rect>
          <x>220</x>
-         <y>170</y>
+         <y>180</y>
          <width>80</width>
          <height>24</height>
         </rect>
@@ -129,7 +129,7 @@
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>20</y>
+         <y>30</y>
          <width>151</width>
          <height>141</height>
         </rect>
@@ -184,7 +184,7 @@
        <property name="geometry">
         <rect>
          <x>180</x>
-         <y>20</y>
+         <y>30</y>
          <width>151</width>
          <height>141</height>
         </rect>
@@ -239,7 +239,7 @@
        <property name="geometry">
         <rect>
          <x>340</x>
-         <y>20</y>
+         <y>30</y>
          <width>151</width>
          <height>141</height>
         </rect>
@@ -462,22 +462,6 @@
      </widget>
     </widget>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>574</width>
-     <height>24</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuOmniwheel_Kinematic_Learning">
-    <property name="title">
-     <string>Omniwheel Kinematic Learning</string>
-    </property>
-   </widget>
-   <addaction name="menuOmniwheel_Kinematic_Learning"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
