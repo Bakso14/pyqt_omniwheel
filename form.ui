@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>574</width>
-    <height>612</height>
+    <height>651</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>10</x>
       <y>10</y>
       <width>541</width>
-      <height>551</height>
+      <height>591</height>
      </rect>
     </property>
     <property name="currentIndex">
@@ -106,7 +106,7 @@
         <x>20</x>
         <y>120</y>
         <width>501</width>
-        <height>181</height>
+        <height>211</height>
        </rect>
       </property>
       <property name="title">
@@ -115,8 +115,8 @@
       <widget class="QPushButton" name="send_fk">
        <property name="geometry">
         <rect>
-         <x>230</x>
-         <y>150</y>
+         <x>220</x>
+         <y>170</y>
          <width>80</width>
          <height>24</height>
         </rect>
@@ -131,7 +131,7 @@
          <x>20</x>
          <y>20</y>
          <width>151</width>
-         <height>121</height>
+         <height>141</height>
         </rect>
        </property>
        <property name="title">
@@ -142,8 +142,8 @@
          <rect>
           <x>10</x>
           <y>30</y>
-          <width>131</width>
-          <height>86</height>
+          <width>136</width>
+          <height>95</height>
          </rect>
         </property>
         <layout class="QFormLayout" name="formLayout">
@@ -186,7 +186,7 @@
          <x>180</x>
          <y>20</y>
          <width>151</width>
-         <height>121</height>
+         <height>141</height>
         </rect>
        </property>
        <property name="title">
@@ -197,8 +197,8 @@
          <rect>
           <x>10</x>
           <y>30</y>
-          <width>131</width>
-          <height>86</height>
+          <width>136</width>
+          <height>95</height>
          </rect>
         </property>
         <layout class="QFormLayout" name="formLayout_2">
@@ -241,7 +241,7 @@
          <x>340</x>
          <y>20</y>
          <width>151</width>
-         <height>121</height>
+         <height>141</height>
         </rect>
        </property>
        <property name="title">
@@ -252,8 +252,8 @@
          <rect>
           <x>10</x>
           <y>30</y>
-          <width>131</width>
-          <height>86</height>
+          <width>136</width>
+          <height>95</height>
          </rect>
         </property>
         <layout class="QFormLayout" name="formLayout_3">
@@ -295,9 +295,9 @@
       <property name="geometry">
        <rect>
         <x>20</x>
-        <y>310</y>
+        <y>340</y>
         <width>501</width>
-        <height>191</height>
+        <height>211</height>
        </rect>
       </property>
       <property name="title">
@@ -348,7 +348,7 @@
          <x>112</x>
          <y>40</y>
          <width>112</width>
-         <height>86</height>
+         <height>95</height>
         </rect>
        </property>
        <layout class="QFormLayout" name="formLayout_7">
@@ -390,7 +390,7 @@
          <x>352</x>
          <y>40</y>
          <width>129</width>
-         <height>86</height>
+         <height>95</height>
         </rect>
        </property>
        <layout class="QFormLayout" name="formLayout_8">
@@ -433,7 +433,7 @@
         <x>20</x>
         <y>10</y>
         <width>79</width>
-        <height>80</height>
+        <height>89</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -469,7 +469,7 @@
      <x>0</x>
      <y>0</y>
      <width>574</width>
-     <height>21</height>
+     <height>24</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuOmniwheel_Kinematic_Learning">
