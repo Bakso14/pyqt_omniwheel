@@ -24,12 +24,112 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="ROS2">
      <attribute name="title">
       <string>ROS2</string>
      </attribute>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>201</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Open Simulation</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>80</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Open Keyboard Control</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>140</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Dummy: Input Vel</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>210</y>
+        <width>211</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="buttonRos1">
+         <property name="text">
+          <string>Env Setup</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonRos2">
+         <property name="text">
+          <string>Robot State Publisher</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonRos3">
+         <property name="text">
+          <string>Open Gazebo</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonRos4">
+         <property name="text">
+          <string>Spawn Robot</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonRos5">
+         <property name="text">
+          <string>gz_bridge</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonRos6">
+         <property name="text">
+          <string>Spawn Controller</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="buttonRos7">
+         <property name="text">
+          <string>Kinematics</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
     <widget class="QWidget" name="Omniwheel">
      <attribute name="title">
@@ -155,7 +255,18 @@
           </widget>
          </item>
          <item row="0" column="1">
-          <widget class="QComboBox" name="motor1_dir"/>
+          <widget class="QComboBox" name="motor1_dir">
+           <item>
+            <property name="text">
+             <string>CW</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCW</string>
+            </property>
+           </item>
+          </widget>
          </item>
          <item row="1" column="0">
           <widget class="QLabel" name="label_2">
@@ -165,7 +276,11 @@
           </widget>
          </item>
          <item row="1" column="1">
-          <widget class="QLineEdit" name="motor1_v"/>
+          <widget class="QLineEdit" name="motor1_v">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
          </item>
          <item row="2" column="0">
           <widget class="QLabel" name="label_3">
@@ -175,7 +290,11 @@
           </widget>
          </item>
          <item row="2" column="1">
-          <widget class="QLineEdit" name="motor1_t"/>
+          <widget class="QLineEdit" name="motor1_t">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -210,7 +329,18 @@
           </widget>
          </item>
          <item row="0" column="1">
-          <widget class="QComboBox" name="motor2_dir"/>
+          <widget class="QComboBox" name="motor2_dir">
+           <item>
+            <property name="text">
+             <string>CW</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCW</string>
+            </property>
+           </item>
+          </widget>
          </item>
          <item row="1" column="0">
           <widget class="QLabel" name="label_5">
@@ -220,7 +350,11 @@
           </widget>
          </item>
          <item row="1" column="1">
-          <widget class="QLineEdit" name="motor2_v"/>
+          <widget class="QLineEdit" name="motor2_v">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
          </item>
          <item row="2" column="0">
           <widget class="QLabel" name="label_6">
@@ -230,7 +364,11 @@
           </widget>
          </item>
          <item row="2" column="1">
-          <widget class="QLineEdit" name="motor_t"/>
+          <widget class="QLineEdit" name="motor2_t">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -265,7 +403,18 @@
           </widget>
          </item>
          <item row="0" column="1">
-          <widget class="QComboBox" name="motor3_dir"/>
+          <widget class="QComboBox" name="motor3_dir">
+           <item>
+            <property name="text">
+             <string>CW</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCW</string>
+            </property>
+           </item>
+          </widget>
          </item>
          <item row="1" column="0">
           <widget class="QLabel" name="label_8">
@@ -275,7 +424,11 @@
           </widget>
          </item>
          <item row="1" column="1">
-          <widget class="QLineEdit" name="motor3_v"/>
+          <widget class="QLineEdit" name="motor3_v">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
          </item>
          <item row="2" column="0">
           <widget class="QLabel" name="label_9">
@@ -285,7 +438,11 @@
           </widget>
          </item>
          <item row="2" column="1">
-          <widget class="QLineEdit" name="motor3_t"/>
+          <widget class="QLineEdit" name="motor3_t">
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -360,7 +517,11 @@
          </widget>
         </item>
         <item row="0" column="1">
-         <widget class="QLineEdit" name="vx"/>
+         <widget class="QLineEdit" name="vx">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
         </item>
         <item row="1" column="0">
          <widget class="QLabel" name="label_20">
@@ -370,7 +531,11 @@
          </widget>
         </item>
         <item row="1" column="1">
-         <widget class="QLineEdit" name="vy"/>
+         <widget class="QLineEdit" name="vy">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
         </item>
         <item row="2" column="0">
          <widget class="QLabel" name="label_21">
@@ -380,7 +545,11 @@
          </widget>
         </item>
         <item row="2" column="1">
-         <widget class="QLineEdit" name="w"/>
+         <widget class="QLineEdit" name="w">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>
@@ -402,7 +571,11 @@
          </widget>
         </item>
         <item row="0" column="1">
-         <widget class="QLineEdit" name="sx"/>
+         <widget class="QLineEdit" name="sx">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
         </item>
         <item row="1" column="0">
          <widget class="QLabel" name="label_24">
@@ -412,7 +585,11 @@
          </widget>
         </item>
         <item row="1" column="1">
-         <widget class="QLineEdit" name="sy"/>
+         <widget class="QLineEdit" name="sy">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
         </item>
         <item row="2" column="0">
          <widget class="QLabel" name="label_22">
@@ -422,7 +599,11 @@
          </widget>
         </item>
         <item row="2" column="1">
-         <widget class="QLineEdit" name="theta"/>
+         <widget class="QLineEdit" name="theta">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>
@@ -438,14 +619,17 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <widget class="QCheckBox" name="rviz2">
+        <widget class="QCheckBox" name="gazebo">
          <property name="text">
-          <string>rviz2</string>
+          <string>gazebo</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QCheckBox" name="serial">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>serial</string>
          </property>
@@ -453,6 +637,9 @@
        </item>
        <item>
         <widget class="QCheckBox" name="node">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>node</string>
          </property>
