@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="ROS2">
      <attribute name="title">
@@ -343,66 +343,90 @@
        <property name="title">
         <string>Motor2</string>
        </property>
-       <widget class="QWidget" name="layoutWidget">
+       <widget class="QComboBox" name="motor2_dir">
+        <property name="geometry">
+         <rect>
+          <x>58</x>
+          <y>30</y>
+          <width>86</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>CW</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>CCW</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_4">
         <property name="geometry">
          <rect>
           <x>10</x>
           <y>30</y>
-          <width>136</width>
-          <height>95</height>
+          <width>20</width>
+          <height>27</height>
          </rect>
         </property>
-        <layout class="QFormLayout" name="formLayout_2">
-         <item row="0" column="0">
-          <widget class="QLabel" name="label_4">
-           <property name="text">
-            <string>Dir</string>
-           </property>
-          </widget>
-         </item>
-         <item row="0" column="1">
-          <widget class="QComboBox" name="motor2_dir">
-           <item>
-            <property name="text">
-             <string>CW</string>
-            </property>
-           </item>
-           <item>
-            <property name="text">
-             <string>CCW</string>
-            </property>
-           </item>
-          </widget>
-         </item>
-         <item row="1" column="0">
-          <widget class="QLabel" name="label_5">
-           <property name="text">
-            <string>Speed</string>
-           </property>
-          </widget>
-         </item>
-         <item row="1" column="1">
-          <widget class="QLineEdit" name="motor2_v">
-           <property name="text">
-            <string>0</string>
-           </property>
-          </widget>
-         </item>
-         <item row="2" column="0">
-          <widget class="QLabel" name="label_6">
-           <property name="text">
-            <string>Time</string>
-           </property>
-          </widget>
-         </item>
-         <item row="2" column="1">
-          <widget class="QLineEdit" name="motor2_t">
-           <property name="text">
-            <string>0</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
+        <property name="text">
+         <string>Dir</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>42</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Speed</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="motor2_v">
+        <property name="geometry">
+         <rect>
+          <x>58</x>
+          <y>60</y>
+          <width>86</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>90</y>
+          <width>34</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Time</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="motor2_t">
+        <property name="geometry">
+         <rect>
+          <x>58</x>
+          <y>90</y>
+          <width>86</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
        </widget>
       </widget>
       <widget class="QGroupBox" name="motor3">
