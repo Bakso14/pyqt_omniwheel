@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="ROS2">
      <attribute name="title">
@@ -98,8 +98,8 @@
      <widget class="QPushButton" name="buttonRos7">
       <property name="geometry">
        <rect>
-        <x>30</x>
-        <y>510</y>
+        <x>250</x>
+        <y>450</y>
         <width>201</width>
         <height>27</height>
        </rect>
@@ -111,8 +111,8 @@
      <widget class="QPushButton" name="buttonRos6">
       <property name="geometry">
        <rect>
-        <x>30</x>
-        <y>480</y>
+        <x>250</x>
+        <y>420</y>
         <width>201</width>
         <height>27</height>
        </rect>
@@ -124,8 +124,8 @@
      <widget class="QPushButton" name="buttonRos1">
       <property name="geometry">
        <rect>
-        <x>250</x>
-        <y>480</y>
+        <x>30</x>
+        <y>450</y>
         <width>201</width>
         <height>27</height>
        </rect>
@@ -137,8 +137,8 @@
      <widget class="QPushButton" name="buttonRos5">
       <property name="geometry">
        <rect>
-        <x>30</x>
-        <y>450</y>
+        <x>250</x>
+        <y>390</y>
         <width>201</width>
         <height>27</height>
        </rect>
@@ -150,8 +150,8 @@
      <widget class="QPushButton" name="buttonRos2">
       <property name="geometry">
        <rect>
-        <x>250</x>
-        <y>450</y>
+        <x>30</x>
+        <y>420</y>
         <width>201</width>
         <height>27</height>
        </rect>
@@ -163,8 +163,8 @@
      <widget class="QPushButton" name="buttonRos3">
       <property name="geometry">
        <rect>
-        <x>250</x>
-        <y>420</y>
+        <x>30</x>
+        <y>390</y>
         <width>201</width>
         <height>27</height>
        </rect>
@@ -177,7 +177,7 @@
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>420</y>
+        <y>480</y>
         <width>201</width>
         <height>27</height>
        </rect>
